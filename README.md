@@ -23,13 +23,15 @@ Write the following command anywhere in your command line:
     
     $ brocli hit
     
-The above command will hit the default url which is 'https://www.gitlab.com' for 1 minute every 10 seconds.
+The above command will hit the default url which is https://www.gitlab.com for 1 minute every 10 seconds.
 
 If you want to hit some other URL just write the following command
 
     $ brocli hit 'www.xyz.com' 60 10
  
-the last two numbers are the total_time_duration and time_interval for the HTTP hit you can provide these value as they suit you.
+the last two arguments are the total_time_duration and time_interval for the HTTP hit you can provide these values as they suit you.
+
+More power to you!!!
 
 ## Contributing
 
